@@ -1,0 +1,222 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+figure img{
+    width: 200px;
+}
+
+
+.toolbox a{
+    text-decoration: none;
+}
+
+h2 , h3 {
+    color: #00a2c6;
+}
+
+table {
+    
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Segoe Ui';
+    font-size: 15px;
+}
+
+.demo-table {
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.demo-table th,
+.demo-table td {
+    border-bottom: 1px solid #e1edff;
+    border-left: 1px solid #e1edff;
+    padding: 10px 10px;
+}
+
+.demo-table th,
+.demo-table td:last-child {
+    border-right: 1px solid #e1edff
+}
+
+.demo-table td:first-child{
+    border-top: 1px solid #e1edff;
+}
+
+.demo-table td:last-child {
+    border-bottom: 0;
+}
+
+caption {
+    caption-side: top;
+    margin-bottom: 10px;
+}
+
+.demo-table thead th {
+    background-color: #508abb;
+    color: #FFFFFF;
+    border-color: #6ea1cc !important;
+    text-transform: uppercase;
+}
+
+.demo-table tbody td {
+    color: #353535;
+}
+
+.demo-table tbody tr:nth-child(odd) td{
+    background-color: #f4fbff;
+}
+
+.demo-table tbody tr:hover th,
+.demo-table tbody tr:hover td{
+    transition: all .2s;
+}
+    
+
+
+    table {
+        width: 50%;
+    }
+    thead th.column-primary{
+        display: none;
+    }
+    thead th:not(.column-primary){
+        display: none;
+    }
+    th[scope="row"] {
+        vertical-align: top;
+    }
+
+    td{
+        display: block;
+        width: auto;
+        text-align: right;
+    }
+
+    thead th::before {
+        text-transform: uppercase;
+        font-weight: bold;
+        content: attr(data-header);
+    }
+
+    thead th:first-child span {
+        display: none;
+    }
+
+    td::before {
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+        content: attr(data-header);
+    }
+
+    header {
+        display: inline;
+    }
+
+    .jumbotron {
+        font-size: 20px;
+        padding: 20px;
+        background-color: #00c8eb;
+        text-align: center;
+        color: white;
+    }
+
+    nav a {
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+    nav a:hover{
+        font-weight: bold;
+    }
+
+    nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+    
+    nav {
+        background-color: #00a2c6;
+        padding: 5px;
+        position: sticky;
+        top: 0;
+    }
+
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .keterangan{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    #wp1{
+        font-size: 20px;
+        color: black;
+
+    }
+
+    p{
+        
+        text-align: justify;
+    }
+
+    .head{
+        color: blanchedalmond;
+        text-align: center;
+    }
+
+    .button{
+        text-decoration: none;
+        background-color: blue;
+        color: cornsilk;
+        border-radius: 5px;
+    }
+
+    .profile {
+        height: 650px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    aside {
+        float: right;
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    .profile header {
+        text-align: center;
+    }
+
+    #home a{
+        color: rgb(5, 5, 5);
+    }
+    

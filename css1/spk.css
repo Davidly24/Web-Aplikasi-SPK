@@ -1,0 +1,85 @@
+body{
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #444;
+    font-family: sans-serif;
+}
+
+.content{
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+header{
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+header h2.judul{
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#spk a{
+    color: rgb(5, 5, 5);
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 7px 10px;
+}
+
+input{
+    padding: 5px 10px;
+}
+
+.blink {
+    animation: blink-animation 0.5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(5, start) infinite;
+    
+    }
+    @keyframes blink-animation {
+    to {
+    visibility: hidden;
+    }
+    }
+    @-webkit-keyframes blink-animation {
+    to {
+    visibility: hidden;
+    
+    }
+    }
+

@@ -1,0 +1,98 @@
+body{
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #444;
+    font-family: sans-serif;
+}
+
+.content{
+    width: 100%;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+header{
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+header h2.judul{
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#hasil a{
+    color: rgb(5, 5, 5);
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table1, th, td {
+    border: 1px solid #999;
+    padding: 7px 10px;
+}
+
+input.cari {
+    box-sizing: border-box;
+    width: 20%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+select.cari {
+    box-sizing: border-box;
+    width: 20%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+button.cari {
+    background: #424eee;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.95em;
+}
+
+
+
